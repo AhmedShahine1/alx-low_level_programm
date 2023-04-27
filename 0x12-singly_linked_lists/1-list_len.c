@@ -2,7 +2,7 @@
 
 /**
  * list_len - Calculate the number of elements.
- * @h: Pointer to a list.
+ * @a: Pointer to a list.
  * Return: Integer.
  **/
 
