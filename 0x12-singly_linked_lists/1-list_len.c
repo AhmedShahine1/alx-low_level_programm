@@ -6,17 +6,17 @@
  * Return: Integer.
  **/
 
-size_t list_len(const list_t *h)
+size_t list_len(const list_t *a)
 {
 	const list_t *temp;
-	unsigned int counter = 0;
+	unsigned int count = 0;
 
-	temp = h;
+	temp = a;
 	while (temp)
 	{
-		counter++;
+		count++;
 		temp = temp->next;
 	}
-	return (counter);
+	return (count);
 }
 
